@@ -1,16 +1,35 @@
-# color_picker
 
-A new Flutter project.
+# Color Picker
 
-## Getting Started
+A simple color picker app made using flutter.
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+### Use flutter_colorpicker package as a library
+Run this code
+```bash
+flutter pub add flutter_colorpicker
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+This will add a line like this to your package's pubspec.yaml. Version may differ.
+or simply you can add this line to your pubspec.yaml file.
+```bash
+dependencies:
+  flutter_colorpicker: ^1.0.3
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Now import in your dart code as
+```bash
+import 'package:flutter_colorpicker/flutter_colorpicker.dart';
+```
+
+Now, you are good to go.
+
+## Documentation
+- [Flutter](https://docs.flutter.dev/)
+- [flutter_colorpicker](https://pub.dev/packages/flutter_colorpicker)
+
+    
+## Authors
+
+ [@Sujan_Koirala](https://github.com/Sujan-Koirala021)
